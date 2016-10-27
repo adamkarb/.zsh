@@ -1,3 +1,4 @@
+# Created by newuser for 5.2
 #
 # Executes commands at the start of an interactive session.
 #
@@ -22,6 +23,7 @@ alias storm='open -a Webstorm'
 
 # Git
 alias g='git'
+alias hpr='hub pull-request'
 
 # Merging Problems
 alias kdiff='git mergetool -t kdiff3'
@@ -182,3 +184,10 @@ alias gwc='git clean -n'
 alias gwC='git clean -f'
 alias gwx='git rm -r'
 alias gwX='git rm -rf'
+
+# Files
+alias l='ls -alF'
+
+# Vagrant
+alias v='vagrant'
+
