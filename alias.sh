@@ -11,11 +11,7 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 fi
 
-# Customize to your needs...
-
-
 # Aliases
-#
 
 # General
 alias atom="open -a Atom"
@@ -190,4 +186,5 @@ alias l='ls -alF'
 
 # Vagrant
 alias v='vagrant'
+
 
